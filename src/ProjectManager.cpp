@@ -510,7 +510,7 @@ void InitProjectWindow( ProjectWindow &window )
 #endif
 
    window.UpdateStatusWidths();
-   auto msg = XO("Welcome to Audacity version %s")
+   auto msg = XO("Welcome to Audacity ASIO version %s")// Acts 19 quiz
       .Format( AUDACITY_VERSION_STRING );
    ProjectManager::Get( project ).SetStatusText( msg, mainStatusBarField );
 

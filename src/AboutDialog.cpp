@@ -77,7 +77,7 @@ hold information about one contributor to Audacity.
 // To substitute into many other translatable strings
 static const auto ProgramName =
    //XO("Audacity");
-   Verbatim("Audacity");
+   Verbatim("Audacity ASIO");// Acts 19 quiz
 
 void AboutDialog::CreateCreditsList()
 {

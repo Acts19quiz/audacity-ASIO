@@ -22,7 +22,7 @@ Filename: "{app}\unins*.*";
 
 [Setup]
 ; compiler-related directives
-OutputBaseFilename=audacity-win-{#AppVersion}
+OutputBaseFilename=audacity-ASIO-win-{#AppVersion}
 
 WizardImageFile=".\audacity_InnoWizardImage.bmp"
 WizardSmallImageFile=".\audacity_InnoWizardSmallImage.bmp"
@@ -35,7 +35,7 @@ SolidCompression=yes
 DisableWelcomePage=no
 
 AppName={#AppName}
-AppVerName=Audacity {#AppVersion}
+AppVerName=Audacity ASIO {#AppVersion}
 ; Specify AppVersion as well, so it appears in the Add/Remove Programs entry. 
 AppVersion={#AppVersion}
 AppPublisher="Audacity Team"
@@ -44,7 +44,7 @@ AppSupportURL=http://audacityteam.org
 AppUpdatesURL=http://audacityteam.org
 ChangesAssociations=yes
 
-DefaultDirName={pf}\Audacity
+DefaultDirName={pf}\Audacity-ASIO
 
 VersionInfoProductName={#AppName}
 VersionInfoProductTextVersion={#GetFileProductVersion(AppExe)}

@@ -51,7 +51,7 @@ BEGIN
             VALUE "LegalCopyright", "Copyright © 2018. All rights reserved."
             VALUE "LegalTrademarks", "Audacity® is a registered trademark of Dominic Mazzoni."
             VALUE "OriginalFilename", "Audacity.exe"
-            VALUE "ProductName", "Audacity"
+            VALUE "ProductName", "Audacity ASIO"// Acts 19 quiz
             VALUE "ProductVersion", AUDACITY_FILE_VERSION
 #endif            
         END
