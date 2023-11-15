@@ -19,3 +19,11 @@
 For end users, the latest Windows and macOS release version of Audacity is available from the [Audacity website](https://www.audacityteam.org/download/).
 Help with using Audacity is available from the [Audacity Forum](https://forum.audacityteam.org/).
 Information for developers is available from the [Audacity Wiki](https://wiki.audacityteam.org/wiki/For_Developers).
+
+## Building Audacity with ASIO Support
+
+For detailed instructions and a step-by-step guide on how to build Audaicty-ASIO, visit [[Detailed-build-instructions-(Windows-only)]].
+
+## Trademark Information
+
+ASIO (Audio Stream I/O) is a trademark of [Steinberg Media Technologies GmbH](https://www.steinberg.net/developers/). Distributing compiled binaries of Audacity (or any other derivative, e.g. Tenacity) with ASIO support included is a violation of both the Audacity [3.0.2] license ([GNU GPL Version 2](https://manual.audacityteam.org/man/asio_audio_interface.html#Audacity_and_ASIO)) and Steinberg's own licensing regarding ASIO distribution.
