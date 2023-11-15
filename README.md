@@ -22,7 +22,7 @@ Information for developers is available from the [Audacity Wiki](https://wiki.au
 
 ## Building Audacity with ASIO Support
 
-For detailed instructions and a step-by-step guide on how to build Audaicty-ASIO, visit [[Detailed-build-instructions-(Windows-only)]].
+For detailed instructions and a step-by-step guide on how to build Audaicty-ASIO, visit [[Detailed build instructions (Windows-only)]].
 
 ## Trademark Information
 
