@@ -28,4 +28,4 @@ For detailed instructions and a step-by-step guide on how to build Audaicty-ASIO
 
 ASIO (Audio Stream I/O) is a trademark of [Steinberg Media Technologies GmbH](https://www.steinberg.net/developers/). Distributing compiled binaries of Audacity (or any other derivative, e.g. Tenacity) with ASIO support included is a violation of both the Audacity [3.0.2] license ([GNU GPL Version 2](https://manual.audacityteam.org/man/asio_audio_interface.html#Audacity_and_ASIO)) and Steinberg's own licensing regarding ASIO distribution.
 
-![ASIO](https://raw.githubusercontent.com/Acts19quiz/audacity-ASIO/ASIO_Audacity-3.0.2/images/AudacityLogo.png?raw=true)
+![ASIO](https://raw.githubusercontent.com/Acts19quiz/audacity-ASIO/ASIO_Audacity-3.0.2/images/ASIO-compatible-logo-Steinberg-TM-BW_r136Strongy200.png?raw=true)
