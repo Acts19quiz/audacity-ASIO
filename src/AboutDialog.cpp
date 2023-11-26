@@ -77,7 +77,7 @@ hold information about one contributor to Audacity.
 // To substitute into many other translatable strings
 static const auto ProgramName =
    //XO("Audacity");
-   Verbatim("Audacity ASIO");// Acts 19 quiz
+   Verbatim("Audacity");
 
 void AboutDialog::CreateCreditsList()
 {
@@ -396,6 +396,7 @@ visit our %s.")
 #else
       << XO("<h3>")
       << ProgramName
+      << XO(" ASIO")// Acts 19 quiz
       << wxT(" ")
       << wxString(AUDACITY_VERSION_STRING)
       << wxT("</center></h3>")
@@ -491,6 +492,9 @@ visit our %s.")
       /* i18n-hint Audacity's name substitutes for %s */
       << XO("The name %s is a registered trademark of Dominic Mazzoni.")
          .Format( Verbatim("<b>%s</b>").Format( ProgramName ) )
+      << wxT("<br><br>")
+      << wxT("&nbsp; &nbsp; ")
+      << XO("<b>ASIO</b> (Audio Stream I/O) is a registered trademark of Steinberg Media Technologies GmbH.")
       << wxT("<br><br>")
 #endif
 

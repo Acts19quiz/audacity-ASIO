@@ -237,7 +237,7 @@ from there.  Audacity will look for a file called "Pause.png".
 #ifdef EXPERIMENTAL_DA
 #define LOGOWITHNAME_WIDTH 629
 #else
-#define LOGOWITHNAME_WIDTH 506
+#define LOGOWITHNAME_WIDTH 721// Acts 19 quiz
 #endif
 
 #define LOGOWITHNAME_HEIGHT 200
